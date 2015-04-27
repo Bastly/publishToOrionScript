@@ -1,0 +1,16 @@
+{
+  "name": "testOffice",
+  "version": "0.2.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "request": "*",
+    "underscore": "*"
+  },
+  "author": "Baslty LTD",
+  "license": "AGPL",
+  "bugs": {
+    "url": "https://github.com/Bastly/chaski/issues"
+  },
+  "homepage": "https://github.com/Bastly/chaski"
+}
