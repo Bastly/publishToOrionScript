@@ -11,7 +11,7 @@ request.post({
         {
             "type": "BastlyMSG",
             "isPattern": "false",
-            "id": "BastlyKey:1234:userId:office1",
+            "id": "BastlyKey:7b6696d0-0d4a-11e5-8f7e-095df2532ac5:userId:office1",
             "attributes": [
             {
                 "name": "temperature:Kitchen",
@@ -53,7 +53,7 @@ setInterval(function () {
             {
                 "type": "BastlyMSG",
                 "isPattern": "false",
-                "id": "BastlyKey:1234:userId:office1",
+                "id": "BastlyKey:7b6696d0-0d4a-11e5-8f7e-095df2532ac5:userId:office1",
                 "attributes": [
                 {
                     "name": "temperature:Kitchen",
@@ -84,7 +84,7 @@ setInterval(function () {
     function (error, response, body) {
         console.log(body);
     });
-}, 1000);
+}, 2000);
 
 function random (low, high) {
     return Math.random() * (high - low) + low;
